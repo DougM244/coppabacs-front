@@ -290,22 +290,6 @@ export default function DadosCaracteristicasAgronomicas({ formik }) {
                     ) : null}
 
                 </div>
-                <div>
-                    <label htmlFor="avaliacaoSemente">Avaliação Geral da Semente <span>*</span></label>
-                    <textarea
-                        className={styles.sidedForm_textarea}
-                        id="avaliacaoSemente"
-                        name="avaliacaoSemente"
-                        placeholder="Insira avaliação geral da semente"
-                        onChange={formik.handleChange}
-                        onBlur={formik.handleBlur}
-                        value={formik.values.avaliacaoSemente}
-                        required />
-                    {formik.touched.avaliacaoSemente && formik.errors.avaliacaoSemente ? (
-                        <span className={styles.form__error}>{formik.errors.avaliacaoSemente}</span>
-                    ) : null}
-
-                </div>
             </div>
         </>
     )

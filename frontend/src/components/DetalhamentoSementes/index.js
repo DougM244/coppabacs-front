@@ -39,7 +39,6 @@ const DetalhamentoSementes = ({ diretorioAnterior, diretorioAtual, hrefAnterior,
         altitudeMinima: sementes?.altitudeMinima,
         caracteristicasPositiva: sementes?.caracteristicasPositiva,
         caracteristicasNegativas: sementes?.caracteristicasNegativas,
-        avaliacaoSemente: sementes?.avaliacaoSemente,
         caracteristicasAgronomicas: {
             cicloFenologico: sementes?.caracteristicasAgronomicas?.cicloFenologico,
             stand: sementes?.caracteristicasAgronomicas?.stand,

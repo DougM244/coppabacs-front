@@ -26,7 +26,6 @@ export default function tableLayout({ table1, table2, table3, table4, listSement
     altitudeMinima: "11",
     caracteristicasPositiva: "Milho bom ",
     caracteristicasNegativas: "Milho ruim",
-    avaliacaoSemente: "eh muito bacana",
     caracteristicasAgronomicas: {
       cicloFenologico: "2323",
       stand: "asdasd",
