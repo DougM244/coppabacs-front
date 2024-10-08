@@ -271,7 +271,7 @@ const DetalhamentoUsuario = ({ diretorioAnterior, diretorioAtual, hrefAnterior, 
                 {hrefAnterior === "/agricultores/solicitacoes" ? (
                   <div className={style.container__profile}>
                     <button
-                      type="submit"
+                      type="button"
                       onClick={() => setEditar(true)}
                       className={style.container__profile_button}
                     >
@@ -279,7 +279,7 @@ const DetalhamentoUsuario = ({ diretorioAnterior, diretorioAtual, hrefAnterior, 
                       <Image src="/assets/iconLapis.svg" alt="Recusar" width={25} height={25} />
                     </button>
                     <button
-                      type="submit"
+                      type="button"
                       onClick={() => mutationAprovacao.mutate(usuario.id)}
                       className={style.container__profile_button}
                     >
